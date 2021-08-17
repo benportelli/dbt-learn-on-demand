@@ -9,8 +9,8 @@ jobs:
 # Give each job a unique name. The name will be displayed in the Fivetran dashboard once your jobs are imported.
 # Job names must be unique
 
- - name: every30minutes
-   schedule: '*/30 * * * *' # The example will run every 30 minutes. Note that the cron string is quoted as otherwise it will be treated as invalid alias node (see https://yaml.org/spec/1.2/spec.html#*%20alias// for details)
+ - name: every5minutes
+   schedule: '*/5 * * * *' # The example will run every 30 minutes. Note that the cron string is quoted as otherwise it will be treated as invalid alias node (see https://yaml.org/spec/1.2/spec.html#*%20alias// for details)
    steps:
 
      - name: run models
