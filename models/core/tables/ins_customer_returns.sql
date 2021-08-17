@@ -18,8 +18,8 @@ final as (
         customers.customer_id,
         customers.first_name,
         customers.last_name,
-        customer_returns.order_date,
-        customer_returns.status
+        order_returns.order_date,
+        order_returns.status
 
     from customers
 
